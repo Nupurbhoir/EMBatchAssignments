@@ -1,0 +1,79 @@
+# 📚 Library Management System
+
+<p align="center">
+  <b>💻 Dart Programming Assignment</b><br>
+  A simple console-based Library Management System built using Dart.
+</p>
+
+---
+
+## 🌟 About the Project
+
+This project is a simple **Library Management System** created using **Dart**.
+
+The main purpose of this project is to understand and apply basic Dart programming and **Object-Oriented Programming (OOP)** concepts in a real-world example.
+
+The program stores books, displays their details, and allows a book to be borrowed.
+
+---
+
+## 🎯 Objectives
+
+- Understand Dart programming basics
+- Use variables and lists
+- Use loops and functions
+- Understand classes and objects
+- Implement constructors
+- Understand inheritance
+- Create a simple real-world console application
+
+---
+
+## 🧩 Concepts Used
+
+| Concept | Purpose |
+|---|---|
+| 🔤 Variables | Store student and book information |
+| 📚 List | Store multiple book objects |
+| 🔄 Loop | Display books one by one |
+| ⚙️ Function | Perform the borrowing operation |
+| 🏗️ Class | Create the structure of a book |
+| 🔧 Constructor | Initialize book details |
+| 📦 Object | Create individual books |
+| 🌳 Inheritance | `EBook` inherits from `Book` |
+
+---
+
+## 📖 Books in the Library
+
+### 1. 🪄 Harry Potter
+**Author:** J.K. Rowling
+
+### 2. 🧛 The Vampire Diaries
+**Author:** L.J. Smith
+
+### 3. 🌸 The Summer I Turned Pretty
+**Author:** Jenny Han
+
+---
+
+## 🏗️ OOP Structure
+
+```text
+              ┌────────────────────┐
+              │    Book (Parent)   │
+              │                    │
+              │  title             │
+              │  author            │
+              │  display()         │
+              └─────────┬──────────┘
+                        │
+                     extends
+                        │
+                        ▼
+              ┌────────────────────┐
+              │   EBook (Child)    │
+              │                    │
+              │  size              │
+              │  showSize()        │
+              └────────────────────┘
